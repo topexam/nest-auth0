@@ -10,3 +10,5 @@ nest-cli.json
 .eslintrc.js
 .prettierrc
 yarn.lock
+commitlint.config.js
+.husky/*
