@@ -1,0 +1,12 @@
+# source
+src
+test
+
+# config
+tsconfig.json
+tsconfig.build.json
+*.tsbuildinfo
+nest-cli.json
+.eslintrc.js
+.prettierrc
+yarn.lock
