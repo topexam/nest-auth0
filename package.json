@@ -1,6 +1,6 @@
 {
   "name": "@topthithu/nest-auth0",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A utility module to integrate auth0 with NestJS",
   "author": "An Nguyen Q. <ngquangan.dev@gmail.com>",
   "license": "MIT",
