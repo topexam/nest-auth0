@@ -5,14 +5,9 @@ export const {
   ConfigurableModuleClass: ConfigurableAuth0Module,
   MODULE_OPTIONS_TOKEN: AUTH0_CONFIG_OPTIONS,
 } = new ConfigurableModuleBuilder<IAuth0ConfigOptions>()
-  .setExtras(
-    {
-      isGlobal: true,
-    },
-    (definition, extras) => ({
-      ...definition,
-      global: extras.isGlobal,
-    }),
-  )
+  .setExtras((definition, extras) => ({
+    ...definition,
+    global: extras.isGlobal,
+  }))
   .setClassMethodName('forFeature')
   .build();
