@@ -812,7 +812,7 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@topthithu/nest-auth0@file:..":
+"nest-auth0@file:..":
   version "0.0.6"
   dependencies:
     auth0 "^3.2.0"
